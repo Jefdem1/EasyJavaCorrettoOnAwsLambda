@@ -13,7 +13,7 @@ sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 
 sudo yum install -y apache-maven
 
-git clone https://github.com/Jefdem1/EasyJavaCorrettoOnAwsLambda
+git clone https://github.com/Jefdem1/EasyJavaCorrettoOnAwsLambda.git
 
 mvn install
 
