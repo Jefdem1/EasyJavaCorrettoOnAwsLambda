@@ -3,6 +3,8 @@ Deploy a Hello World function on AWS Lambda using Java Corretto 11
 
 Launch an Amazon Linux 2 EC2 instance or similiar
 
+sudo yum install -y git
+
 sudo curl -L -o /etc/yum.repos.d/corretto.repo https://yum.corretto.aws/corretto.repo
 
 sudo yum install -y java-11-amazon-corretto-devel
