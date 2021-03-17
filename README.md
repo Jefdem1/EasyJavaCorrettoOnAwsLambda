@@ -17,6 +17,8 @@ sudo yum install -y apache-maven
 
 git clone https://github.com/Jefdem1/EasyJavaCorrettoOnAwsLambda.git
 
+cd EasyJavaCorrettoOnAwsLambda
+
 mvn install
 
 either winscp to the instance and download the demo-1.0.0.jar or run aws lambda command to upload directly
