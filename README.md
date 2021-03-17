@@ -25,7 +25,5 @@ either winscp to the instance and download the demo-1.0.0.jar or run aws lambda 
 
 create lambda any name, runtime Java 11 (Corretto)
 
-edit Handler
-
-replace example.Hello::handleRequest with com.amazonaws.lambda.demo.LambdaFunctionHandler::handleRequest
+edit Handler (replace example.Hello::handleRequest with com.amazonaws.lambda.demo.LambdaFunctionHandler::handleRequest)
 
